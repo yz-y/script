@@ -175,7 +175,6 @@ self-start(){
 install(){
 	check_system
 	check_root
-	check_ovz
 	check_ldd
 	check_tuntap
 	directory

@@ -23,9 +23,7 @@ check_root(){
 	[[ "`id -u`" != "0" ]] && echo -e "${Error} must be root user !" && exit 1
 }
 
-check_ovz(){
 
-}
 
 check_ldd(){
 	#ldd=`ldd --version | grep ldd | awk '{print $NF}'`
